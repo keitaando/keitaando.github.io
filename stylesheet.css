@@ -19,22 +19,26 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
+  background-image: url(sui.jpg);
   background-size: cover;
-  color: white;
-  text-align: center;
+  position:relative;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 1.0;
   font-size: 45px;
   letter-spacing: 5px;
+  color: white;
+  text-align: center;
+
 }
 
 .top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
+  opacity: 1.0;
+  font-size: 23px;
   margin-bottom: 40px;
+  color: white;
+  text-align: center;
 }
 
 .btn-wrapper {
@@ -177,19 +181,28 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
+
+.containerssa {
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
 }
 
-footer p {
+.an {
+width:100px;
+display: block;
+  margin: 0 auto;
+
+}
+
+.containerssa p {
   color: #b3aeb5;
   font-size: 12px;
+  text-align: center;
+  margin-top:0
 }
 
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
+
 
 .menu-icon {
   color: white;
